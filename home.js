@@ -1,4 +1,6 @@
-let welcome = 'Hello...'
+// let welcome = 'Hello...'
+
+const welcome = 'Hello...'
 
 welcome = "New Price"
 
