@@ -1,7 +1,9 @@
 // let welcome = 'Hello...'
 
-const welcome = 'Hello...'
+let name = "Basweti"
 
-welcome = "New Price"
+const welcome = `Hello ${name}`
+
+// welcome = "New Price"
 
 showMessage(welcome);
