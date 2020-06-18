@@ -10,5 +10,6 @@ console.log(parseFloat(num));
 const welcome = `Hello ${name}`
 
 // welcome = "New Price"
-
-showMessage(welcome);
+if (1===1) {
+    showMessage(welcome);
+}
