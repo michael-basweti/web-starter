@@ -29,3 +29,10 @@ while (i>0){
     console.log(i);
     i--;
 }
+
+function showMessages(message, another_one){
+    console.log(message, another_one);
+    
+}
+
+showMessages("My Nigga", "You're lit")
