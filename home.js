@@ -17,3 +17,8 @@ let welcome = (name=="Basweti")? `Hello ${name}` : `no name`
 // ternary operator
 
 showMessage(welcome);
+
+for (let i = 0; i<5; i++){
+    console.log(i);
+    
+}
