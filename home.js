@@ -1,15 +1,19 @@
 // let welcome = 'Hello...'
 
-let name = "Basweti"
+let name = "Basweti1"
 
 let num = '123'
 
 console.log(parseFloat(num));
 
 
-const welcome = `Hello ${name}`
+let welcome = (name=="Basweti")? `Hello ${name}` : `no name`
 
 // welcome = "New Price"
-if (1===1) {
-    showMessage(welcome);
-}
+// if (1===1) {
+//     showMessage(welcome);
+// }
+
+// ternary operator
+
+showMessage(welcome);
