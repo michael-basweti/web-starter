@@ -15,3 +15,10 @@ button.addEventListener('click', function(){
     
     
 })
+
+const vals = ['a','b','c','d']
+
+vals.forEach(function(item){
+    console.log(item);
+    
+})
