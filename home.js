@@ -16,7 +16,7 @@ let welcome = (name=="Basweti")? `Hello ${name}` : `no name`
 
 // ternary operator
 
-showMessage(welcome);
+// showMessage(welcome);
 
 for (let i = 0; i<5; i++){
     console.log(i);
@@ -30,17 +30,24 @@ while (i>0){
     i--;
 }
 
-function showMessages(message, another_one){
-    console.log(message, another_one);
+// function showMessages(message, another_one){
+//     console.log(message, another_one);
     
-}
+// }
 
-showMessages("My Nigga", "You're lit")
+// showMessages("My Nigga", "You're lit")
 
+let mySymbol = Symbol()
 let person = {
     name:'Michael',
     age:32,
-    partTime: false
+    partTime: false,
+    [mySymbol]:'secret',
+    showInfo: function(){
+        showMessage(this.name)
+    }
 }
 
 console.log(person.name);
+
+person.showInfo()
