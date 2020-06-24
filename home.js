@@ -36,3 +36,11 @@ function showMessages(message, another_one){
 }
 
 showMessages("My Nigga", "You're lit")
+
+let person = {
+    name:'Michael',
+    age:32,
+    partTime: false
+}
+
+console.log(person.name);
